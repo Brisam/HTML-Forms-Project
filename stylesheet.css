@@ -101,6 +101,18 @@ hr{
 footer{
   height: 150px;
   width: 750px;
-  border: 1px solid Grey;
   margin: 25px auto;
+}
+
+footer p{
+  text-align: center;
+  font-size: 18px;
+  color: Grey;
+  line-height: 30px;
+}
+
+footer p:nth-child(2){
+  text-align: center;
+  font-size: 10px;
+  color: Grey;
 }
